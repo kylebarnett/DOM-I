@@ -70,12 +70,14 @@ contact[5].style.color = 'green'
 //Append
 let newNav = document.createElement('nav')
 let newA = document.createElement('a')
+let newB = document.createElement('a')
 let menu = document.getElementsByTagName('nav')[0]
 menu.appendChild(newA)
 newA.innerText = "Append"
 newA.style.color = 'green'
-menu.prepend(newA)
-newA.innerText = "Prepend"
+menu.prepend(newB)
+newB.innerText = "Prepend"
+newB.style.color = 'green'
 //IMG
 
 let img1 = document.getElementById('cta-img')
